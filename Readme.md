@@ -7,7 +7,7 @@ TO start the app
 - `multipart/form-data`
 - Fields
 - `file` - > upload through postman
-- `folderpath` - > The folder path (e.g. /images/folder/) in which the image has to be uploaded. If the folder(s) didn't exist before, a new folder(s) is created.
+- `folderpath` - > The folder path (e.g. /images/folder/) in which the image has to be uploaded. If the folder(s) didn't exist before, a new folder(s) is created.  Default value - `/`
 - If same filename exist in path , then it will be override
 
 ### /search?folderpath='/home/'&filename='something' -> GET method
