@@ -15,6 +15,6 @@ TO start the app
 - returns list of files
 - can be search with `filename` or `foldername` or `combined`
 
-### /deleteFolder?folderpath='/home/'
+### /deleteFolder?folderpath='/home/' -> Delete Method
 
 - will delete the folder and all entries associated with it
